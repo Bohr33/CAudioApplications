@@ -7,10 +7,10 @@
 #include <portaudio.h>
 
 //Audio file is named here, must change this is if another file is to be used
-#define kAudioFile "cw_amen06_169.wav"
+#define kAudioFile "Guitar.wav"
 #define kNumFramesPerBuffer 512
 #define kSampleRate 44100.0
-#define kNumChannels 2
+#define kNumChannels 1
 
 //this structure holds data for portaudio, it holds the stream address, as well as info for input and output parameters (although input parameters are not being used and should probably be deleted)
 typedef struct AudioStream {

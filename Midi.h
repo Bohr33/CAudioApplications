@@ -4,7 +4,6 @@
 #include <portmidi.h>
 
 #define kMaxMIDIEvents 20
-#define kMidiInputDeviceID 1 //change this when needed
 
 typedef struct MIDIStream {
   int numMIDIEvents; //Store a count for all incoming MIDI events
